@@ -1,16 +1,21 @@
 
+.bg {
+    min-height: 90vh;
+    background-image: url('https://visualhunt.com/photos/xl/7/wood-cottage-wood-house-cabine.jpg');
+    background-size: cover;
+    background-position: center;
+}
 
-/** HEADER INTRO VIDEO **/
-header {
+.header {
     position: relative;
     background-color: black;
-    height: 100vh;
+    height: 90vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
   }
-  
-  header video {
+
+.header video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -25,29 +30,41 @@ header {
     transform: translateX(-50%) translateY(-50%);
   }
   
-  header .container {
+  .header .container {
     position: relative;
     z-index: 2;
   }
   
-  header .overlay {
+  .header .overlay {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
-    opacity: 0.5;
+    background-color: purple;
+    opacity: 0.7;
     z-index: 1;
   }
   
   @media (pointer: coarse) and (hover: none) {
-    header {
+    .header {
       background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
     }
-    header video {
+    .header video {
       display: none;
     }
   }
+
+
+.sticky-top {
+    transition: all 0.25s ease-in;
+}
+
+/* style for when sitcky is applied */
+.stuck .sticky-top {
+    background-color: #222 !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
 
   /**  END HEADER INTRO VIDEO **/
