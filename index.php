@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YAMA 2020</title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
     <!-- CSS -->
     <!-- Boostrap 4 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -40,28 +42,29 @@
     </div>
   </div>
     
-
 </div>
 
-<span class="position-absolute trigger"><!-- hidden trigger to apply 'stuck' styles --></span>
-<nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-info py-2">
+
+<nav class="navbar navbar-expand-sm nav-change navbar-dark py-2">
+<span class="position-absolute trigger w-100" style="height:10px;background-color:transparent;z-index:-1;"><!-- hidden trigger to apply 'stuck' styles --></span>
     <div class="container">
-        <a class="navbar-brand" href="#">Brand</a>
+        <a class="navbar-brand" href="#">Menu trigger</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbar1">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">01</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">02</a>
                 </li>
-            </ul>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Link</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">03</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">04</a>
                 </li>
             </ul>
         </div>
