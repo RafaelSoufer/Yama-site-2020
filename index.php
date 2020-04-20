@@ -75,7 +75,7 @@
 <div class="container">
     <div class="row">
         <div class="col-12 py-4">
-            <h2>Content...</h2>
+            <h2>Content....</h2>
             <h5>Scroll down to see the Navbar stick, shrink and change color.</h5>
 
             <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut semiotics,
