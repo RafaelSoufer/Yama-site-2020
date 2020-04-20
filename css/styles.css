@@ -5,7 +5,7 @@ body, html {
 
 .bg {
     min-height: 100vh;
-    background-image: url('https://visualhunt.com/photos/xl/7/wood-cottage-wood-house-cabine.jpg');
+    background-image: url('../img/bg-fpo.png');
     background-size: cover;
     background-position: center;
 }
@@ -52,7 +52,7 @@ body, html {
   
   @media (pointer: coarse) and (hover: none) {
     .header {
-      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+      background: url('../img/bg-fpo.png') black no-repeat center center scroll;
     }
     .header video {
       display: none;
