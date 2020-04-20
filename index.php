@@ -36,7 +36,7 @@
   <div class="container h-100">
     <div class="d-flex h-100 text-left align-items-center">
       <div class="w-100 text-white">
-        <h1 class="display-3">The global brand <br> Experience agency</h1>
+        <h1 class="display-3"><b>The global brand <br> Experience agency</b></h1>
         <h2 class="display-3">for Pharma.</h2>
       </div>
     </div>
@@ -48,23 +48,23 @@
 <nav class="navbar navbar-expand-sm nav-change navbar-dark py-2">
 <span class="position-absolute trigger w-100" style="height:10px;background-color:transparent;z-index:-1;"><!-- hidden trigger to apply 'stuck' styles --></span>
     <div class="container">
-        <a class="navbar-brand" href="#">Menu trigger</a>
+        <!-- <a class="navbar-brand" href="#">Menu trigger</a> -->
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbar1">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">01</a>
+                    <a class="nav-link" href="#"> <span class="menu-number"> <b>01</b> |</span><br/>WHAT WE DO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">02</a>
+                    <a class="nav-link" href="#"><span class="menu-number"> <b>02</b> |</span><br/>WHO WE ARE</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">03</a>
+                    <a class="nav-link" href="#"><span class="menu-number"> <b>03</b> |</span><br/>WHAT PEOPLE SAY</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">04</a>
+                    <a class="nav-link" href="#"><span class="menu-number"> <b>04</b> |</span><br/>LET'S CONNECT</a>
                 </li>
             </ul>
         </div>

@@ -9,7 +9,7 @@ body, html {
     background-size: cover;
     background-position: center;
 }
-
+/** HEADER **/
 .header {
     position: relative;
     background-color: black;
@@ -59,21 +59,41 @@ body, html {
     }
   }
 
+/** Header Copy **/
 
+/** End Header Copy **/
+
+
+/** END HEADER **/
+
+/** NAVBAR MENU **/
 .navbar {
-    top: -57px;
-    z-index: 9999;
-}  
+    bottom: 140px;
+    z-index: 99;
+}
+
+.navbar .navbar-nav {
+margin-left: auto;
+} 
+
+.navbar .navbar-nav .nav-item{
+  font-weight: 300;
+  margin-right: 2rem;
+} 
+
+.navbar .navbar-nav .menu-number{
+  font-size: 2rem;
+} 
 
 .nav-change {
     transition: all 0.25s ease-in;
 }
 
-/* style for when sitcky is applied */
+/* change cuando sepan que va a hacer al scrollear */
 .stuck .nav-change {
     background-color: #222 !important;
     padding-top: 3px !important;
     padding-bottom: 3px !important;
 }
 
-  /**  END HEADER INTRO VIDEO **/
+/** END NAVBAR MENU **/
