@@ -36,7 +36,7 @@
   <div class="container h-100">
     <div class="d-flex h-100 text-left align-items-center">
       <div class="w-100 text-white">
-        <h1 class="display-3"><b>The global brand <br> Experience agency</b></h1>
+        <h1 class="display-3"><b>The global brand <br> Experience agency.</b></h1>
         <h2 class="display-3">for Pharma.</h2>
       </div>
     </div>
